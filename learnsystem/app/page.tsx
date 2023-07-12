@@ -12,10 +12,15 @@ export default function Home() {
 
       
 
-      <div className={styles.center}>
-        <div id='loginbutton' className={styles.card}>Login</div>
-
-        <div id='singinbutton' className={styles.card}>Sing in</div>
+      <div>
+        <a href="/login">
+          <div id='loginbutton' className={styles.card}>Login</div>
+        </a>
+        
+        <a href="/login">
+          <div id='singinbutton' className={styles.card}>Sing in</div>
+        </a>
+        
       </div>
     </main>
   )

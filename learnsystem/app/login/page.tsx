@@ -1,3 +1,5 @@
+import Footbar from "./footbar"
+
 export default function Home(){
     return (
         <main>
@@ -5,6 +7,8 @@ export default function Home(){
                 <input type="text" id="email"/>
                 <input type="text" id="password" />
             </div>
+
+            <Footbar></Footbar>
         </main>
     )
 }
