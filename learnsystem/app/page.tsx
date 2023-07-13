@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import styles from './page.module.css'
+import Footbar from './login/footbar'
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
 
       
 
-      <div>
+      <div className={styles.grid}>
         <a href="/login">
           <div id='loginbutton' className={styles.card}>Login</div>
         </a>
@@ -22,6 +22,8 @@ export default function Home() {
         </a>
         
       </div>
+
+      <Footbar></Footbar>
     </main>
   )
 }

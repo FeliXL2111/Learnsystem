@@ -1,10 +1,15 @@
+import styless from './page.module.css'
+
 export default function Footbar(){
     return (
-        <main>
-            <ol>
-                <li><a href="/kontakt">Kontakt</a></li>
-                <li><a href="/agb">AGBs</a></li>
-            </ol>
+        <main className={styless.footbarcss}>
+            <div>
+                <ul className={styless.ulwithoutbullets}>
+                    <li><a href="/contact">Kontakt</a></li>
+                    <li><a href="/agb">AGBs</a></li>
+                </ul>
+            </div>
+            
         </main>
     )
 }

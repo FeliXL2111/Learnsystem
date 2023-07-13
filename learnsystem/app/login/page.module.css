@@ -1,0 +1,13 @@
+.ulwithoutbullets{
+    list-style-type: none;
+}
+
+.footbarcss{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(133, 0, 153);
+    margin:bottom;
+    text-align: center;
+    border-radius: 1rem;
+    margin-bottom: -200px;
+}
