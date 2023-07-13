@@ -1,5 +1,5 @@
 import styles from './page.module.css'
-import Footbar from './login/footbar'
+import Footbar from './components/footbar'
 
 export default function Home() {
   return (

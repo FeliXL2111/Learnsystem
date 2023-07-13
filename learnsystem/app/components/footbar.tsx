@@ -1,4 +1,4 @@
-import styless from './page.module.css'
+import styless from './footbar.module.css'
 
 export default function Footbar(){
     return (

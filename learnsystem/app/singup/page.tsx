@@ -5,7 +5,8 @@ export default function Home(){
         <main>
             <div id="maincard">
                 <input type="text" id="email"/>
-                <input type="text" id="password" />
+                <input type="password" id="password"/>
+                <input type="password" id="reappassword"/>
             </div>
 
             <Footbar></Footbar>
